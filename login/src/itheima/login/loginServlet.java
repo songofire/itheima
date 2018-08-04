@@ -16,6 +16,11 @@ public class loginServlet extends HttpServlet {
         //获取提交的用户密码
         /*随便做点修改更新到GitHub分支*/
         System.out.println("随便打点东西咯");
+
+        /*Ijust checkout branch issue and do something updage*/
+        System.out.println("我刚刚切换到事情分支和作了一点修改");
+
+
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         System.out.println(username);
