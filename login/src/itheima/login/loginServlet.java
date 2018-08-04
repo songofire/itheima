@@ -20,6 +20,9 @@ public class loginServlet extends HttpServlet {
         /*Ijust checkout branch issue and do something updage*/
         System.out.println("我刚刚切换到事情分支和作了一点修改");
 
+        /*I just create branch issue9 and want to have a Test*/
+        System.out.println("远程分支没有Branch issue9,现在准备用push,远程创建一个分支");
+
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");
