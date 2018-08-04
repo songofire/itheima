@@ -3,17 +3,19 @@ package itheima.login;
 import itheima.dao.DataQuery;
 import itheima.domain.User;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
+/*import javax.servlet.annotation.WebServlet;*/
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet(name = "loginServlet",urlPatterns = "/loginServlet")
+/*@WebServlet(name = "loginServlet",urlPatterns = "/loginServlet")*/
 public class loginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //获取提交的用户密码
+        /*随便做点修改更新到GitHub分支*/
+        System.out.println("随便打点东西咯");
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         System.out.println(username);
