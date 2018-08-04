@@ -3,7 +3,7 @@ package itheima.domain;
 public class User {
     private String username;
     private String password;
-
+    private  String abc;
     public User() {
     }
 
